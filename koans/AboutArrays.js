@@ -73,7 +73,7 @@ describe("About Arrays", function() {
     expect(array[3]).toBe("three");
   });
 
-  it("should push and pop", function ()
+  it("should push and pop", function () {
     var array = [1, 2];
     array.push(3);
 
