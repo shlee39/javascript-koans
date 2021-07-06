@@ -30,7 +30,7 @@ describe('About Expects', function() {
     var actualValue = (1 + 1).toString();
 
   // toBe() will always use === to compare.
-    expect(actualValue).toBe(expectedValue);
+    expect(actualValue).toBe('2');
   });
 
   // Sometimes we will ask you to fill in the values.
